@@ -37,7 +37,7 @@ A entidade que recebe o formulário deve utilizar esta operação para comunicar
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode>ISCOP003SendProcessNumber</operationCode>
   <operationVersion></operationVersion>
   <Form></Form>
 </operationData>
@@ -55,7 +55,7 @@ pode ser originada a partir da plataforma de serviços ou do sistema de informa�
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode>ISCOP002SendStateUpdate</operationCode>
   <operationVersion></operationVersion>
   <Form></Form>
 </operationData>
