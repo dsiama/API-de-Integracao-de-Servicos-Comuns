@@ -3,7 +3,7 @@
 A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto de operações que permitem integrar com as plataformas de serviços do [ePortugal](https://ePortugal.gov.pt)
 
 As operações apresentadas estarão de acordo com o levantamento e documentação efetuada.
-![GSD1 phenotype]({{ BASE_PATH }}/assets/images/amagovpt.jpg)
+![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/amagovpt.jpg)
 
 ## Operações disponíveis
 
