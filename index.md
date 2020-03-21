@@ -24,25 +24,79 @@ O formulário submetido na plataforma de serviços da AMA é enviado através de
   <operationVersion></operationVersion>
   <Form></Form>
 </operationData>
-
 ```
 
 
 ### Envio de número de processo externo
 A entidade que recebe o formulário deve utilizar esta operação para comunicar o nº de processo no seu sistema.
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 ### Alteração de estado
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite comunicar uma alteração de estado e
 pode ser originada a partir da plataforma de serviços ou do sistema de informação da entidade parceira.
 
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
+
 ### Solicitar meio/forma de pagamento
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite solicitar os meios de pagamento para a tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 **Necessita de protocolo com a Plataforma de Pagamentos da AMA para usar**
 
 ### Enviar notificações
 Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
 Esta comunicação escrita não pode enviar dados do processo , apenas apelar à sua visualização no ePortugal.
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 ### Solicitar envio de formulário
 **BETA**
