@@ -7,6 +7,7 @@ As operações apresentadas estarão de acordo com o levantamento e documentaç�
 
 # Operações existentes
 
+
 ## Envio de formulário
 O formulário submetido na plataforma de serviços da AMA é enviado através desta operação.
 
@@ -19,7 +20,9 @@ pode ser originada a partir da plataforma de serviços ou do sistema de informa�
 
 ## Solicitar meio/forma de pagamento
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite solicitar os meios de pagamento para a tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
-**Plataforma de Pagamentos da AMA** 
+
+**Necessita de protocolo com a Plataforma de Pagamentos da AMA para usar** 
+
 # Enviar notificações
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
