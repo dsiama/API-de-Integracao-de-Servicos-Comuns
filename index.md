@@ -10,7 +10,7 @@ As operações apresentadas estarão de acordo com o levantamento e documentaç�
 
 ### Envio de formulário
 O formulário submetido na plataforma de serviços da AMA é enviado através desta operação.
-First Header | Second Header
+|First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
