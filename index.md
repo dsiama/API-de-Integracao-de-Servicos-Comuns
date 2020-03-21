@@ -5,19 +5,21 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 As operações apresentadas estarão de acordo com o levantamento e documentação efetuada.
 
 
-### Operações existentes
-# Envio de Formulário
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Operações existentes
 
-# Envio de Nº processo externo
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Envio de formulário
+O formulário submetido na plataforma de serviços da AMA é enviado através desta operação.
 
-# Alteração de estado
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Envio de número de processo externo
+A entidade que recebe o formulário deve utilizar esta operação para comunicar o nº de processo no seu sistema.
 
-# Pedir meios de pagamento
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Alteração de estado
+Esta operação pode ser usada de forma bidirecional conforme os cenários , permite comunicar uma alteração de estado e
+pode ser originada a partir da plataforma de serviços ou do sistema de informação da entidade parceira.
 
+## Solicitar meio/forma de pagamento
+Esta operação pode ser usada de forma bidirecional conforme os cenários , permite solicitar os meios de pagamento para a tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
+**Plataforma de Pagamentos da AMA** 
 # Enviar notificações
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
