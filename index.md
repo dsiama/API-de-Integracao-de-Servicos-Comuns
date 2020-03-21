@@ -27,27 +27,46 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
 Esta comunicação escrita não pode enviar dados do processo , apenas apelar à sua visualização no ePortugal.
 
-# Solicitar envio de formulário **BETA**
+# Solicitar envio de formulário
 É uma forma de solicitar o envio de um formulário, é um mecanismo disponível para a plataforma de serviços,
-solicitar o envio de um formulário no âmbito de uma alteração
+solicitar o envio de um formulário no âmbito de uma alteração.
 
-# Envio de um erro **BETA** 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**BETA**
+
+# Envio de um erro
+Esta operação pode ser usada de forma bidirecional e serve para a comunicação de erros na troca de mensagens.
+
+**BETA**
 
 # Pedido de acesso
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Esta operação serve para solicitar acesso a um formulário.
+
+**BETA**
 
 # Resposta a pedido de acesso
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Esta operação serve para responder a um pedido de acesso a um formulário.
+
+**BETA**
 
 # Pedido de esclarecimentos
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Esta operação permite o envio de um pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido.
+
+**BETA**
 
 # Resposta a pedido de esclarecimentos
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Esta operação permite o envio de uma resposta ao pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido
+
+**BETA**
 
 # Registo de uma decisão
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Esta operação permite o registo de uma decisão associada a um processo.
+
+**BETA**
+
+# Pedido de dados resumo
+Esta operação permite o envio de dados de serviço de forma resumida.
+**BETA**
+
 
 You can use the [editor on GitHub](https://github.com/dsiama/iscapi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
