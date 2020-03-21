@@ -31,9 +31,12 @@ A entidade que recebe o formulário deve utilizar esta operação para comunicar
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|requestNumber|string|1....1|
+|compEntityReqNumber|string|1....1|
+|replyType|string|1....1|
+|replyCode|string|1....1|
 
 ```markdown
 <operationData>
@@ -52,9 +55,17 @@ pode ser originada a partir da plataforma de serviços ou do sistema de informa�
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|requestNumber|string|1....1|
+|compEntityReqNumber|string|1....1|
+|changeDate|timestamp|1....1|
+|sendDate|timestamp|1....1|
+|stateCode|int|1....1|
+|stateDesc|string|1....1|
+|action|int|1....1|
+|actionDesc|string|1....1|
+|comments|string|1....1|
 
 ```markdown
 <operationDaa>
@@ -187,6 +198,7 @@ Esta operação serve para solicitar acesso a um formulário.
 
 **BETA**
 Esta operação serve para responder a um pedido de acesso a um formulário.
+
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
 |OperationCode|String|1....1|
