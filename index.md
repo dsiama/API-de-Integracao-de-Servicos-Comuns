@@ -1,71 +1,69 @@
-## Integração de Serviços Comuns
+# Integração de Serviços Comuns
 
 A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto de operações que permitem integrar com as plataformas de serviços do [ePortugal](https://ePortugal.gov.pt)
 
 As operações apresentadas estarão de acordo com o levantamento e documentação efetuada.
 
 
-# Operações disponíveis
+## Operações disponíveis
 
 
-## Envio de formulário
+### Envio de formulário
 O formulário submetido na plataforma de serviços da AMA é enviado através desta operação.
 
-## Envio de número de processo externo
+### Envio de número de processo externo
 A entidade que recebe o formulário deve utilizar esta operação para comunicar o nº de processo no seu sistema.
 
-## Alteração de estado
+### Alteração de estado
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite comunicar uma alteração de estado e
 pode ser originada a partir da plataforma de serviços ou do sistema de informação da entidade parceira.
 
-## Solicitar meio/forma de pagamento
+### Solicitar meio/forma de pagamento
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite solicitar os meios de pagamento para a tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
 
 **Necessita de protocolo com a Plataforma de Pagamentos da AMA para usar**
 
-# Enviar notificações
+### Enviar notificações
 Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
 Esta comunicação escrita não pode enviar dados do processo , apenas apelar à sua visualização no ePortugal.
 
-# Solicitar envio de formulário
+### Solicitar envio de formulário
+**BETA**
 É uma forma de solicitar o envio de um formulário, é um mecanismo disponível para a plataforma de serviços,
 solicitar o envio de um formulário no âmbito de uma alteração.
 
-**BETA**
 
-# Envio de um erro
+
+### Envio de um erro
+**BETA**
 Esta operação pode ser usada de forma bidirecional e serve para a comunicação de erros na troca de mensagens.
 
-**BETA**
 
-# Pedido de acesso
+
+### Pedido de acesso
+**BETA**
 Esta operação serve para solicitar acesso a um formulário.
 
-**BETA**
 
-# Resposta a pedido de acesso
+### Resposta a pedido de acesso
+**BETA**
 Esta operação serve para responder a um pedido de acesso a um formulário.
 
+### Pedido de esclarecimentos
 **BETA**
-
-# Pedido de esclarecimentos
 Esta operação permite o envio de um pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido.
 
+### Resposta a pedido de esclarecimentos
 **BETA**
-
-# Resposta a pedido de esclarecimentos
 Esta operação permite o envio de uma resposta ao pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido
 
+### Registo de uma decisão
 **BETA**
-
-# Registo de uma decisão
 Esta operação permite o registo de uma decisão associada a um processo.
 
+### Pedido de dados resumo
 **BETA**
-
-# Pedido de dados resumo
 Esta operação permite o envio de dados de serviço de forma resumida.
-**BETA**
 
 
 You can use the [editor on GitHub](https://github.com/dsiama/iscapi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
