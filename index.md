@@ -11,7 +11,6 @@ As operações apresentadas estarão de acordo com o levantamento e documentaç�
 ### Envio de formulário
 O formulário submetido na plataforma de serviços da AMA é enviado através desta operação.
 
-
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
 |OperationCode|String|1....1|
@@ -29,6 +28,7 @@ O formulário submetido na plataforma de serviços da AMA é enviado através de
 
 ### Envio de número de processo externo
 A entidade que recebe o formulário deve utilizar esta operação para comunicar o nº de processo no seu sistema.
+
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
 |OperationCode|String|1....1|
