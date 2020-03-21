@@ -112,7 +112,7 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
     </requests>
 </operationData>
 ```
-**Necessário ter protocolo com a AMA para utilizar a Plataforma de Pagamentos da AMAr**
+**Necessário ter protocolo com a AMA para utilizar a Plataforma de Pagamentos da AMA**
 
 ### Enviar notificações
 Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
@@ -338,6 +338,20 @@ Esta operação permite o envio de dados de serviço de forma resumida.
   <params>
 </operationData>
 ```
+
+
+## Tabelas de Valores
+
+### Meios de Pagamento
+|Id| Valor |
+|------------ | ------------|
+|1|	Multibanco|
+|2|	Cartão de Crédito|
+|3|	Numerário|
+|4|	Cheque|
+|5|	Transferência Bancária|
+|6|	Anulação Manual|
+
 
 ### Jekyll Themes
 
