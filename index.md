@@ -343,6 +343,7 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 ## Tabelas de Valores
 
 ### Meios de Pagamento
+
 |Id| Valor |
 |------------ | ------------|
 |1|	Multibanco|
