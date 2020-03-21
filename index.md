@@ -72,7 +72,7 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode>ISCOP004GetPaymentMethods</operationCode>
   <operationVersion></operationVersion>
   <Form></Form>
 </operationData>
@@ -92,7 +92,7 @@ Esta comunicação escrita não pode enviar dados do processo , apenas apelar à
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode>ISCOP013SendNotifications</operationCode>
   <operationVersion></operationVersion>
   <Form></Form>
 </operationData>
