@@ -36,10 +36,13 @@ A entidade que recebe o formulário deve utilizar esta operação para comunicar
 |Form|Formulário eForms|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP003SendProcessNumber</operationCode>
-  <operationVersion></operationVersion>
-  <Form></Form>
+  <operationVersion>1.0</operationVersion>
+  <requestNumber>694/2020</requestNumber>
+  <compEntityReqNumber>PROC/487/2020</compEntityReqNumber>
+  <replyType>OK</replyType>
+  <replyCode>200</replyCode>
 </operationData>
 ```
 
@@ -56,8 +59,16 @@ pode ser originada a partir da plataforma de serviços ou do sistema de informa�
 ```markdown
 <operationDaa>
   <operationCode>ISCOP002SendStateUpdate</operationCode>
-  <operationVersion></operationVersion>
-  <Form></Form>
+  <operationVersion>1.0</operationVersion>
+  <requestNumber>696/2020</requestNumber>
+  <compEntityReqNumber>PROC/489/2020</compEntityReqNumber>
+  <changeDate>2020-03-20T17:37:58</changeDate>
+  <sendDate>2020-03-20T17:37:58</sendDate>
+  <stateCode>13</stateCode>
+  <stateDesc>Processo decidido</stateDesc>
+  <actionCode>14</actionCode>
+  <actionDesc>Emitir decisão</actionDesc>
+  <comments />
 </operationData>
 ```
 
@@ -72,9 +83,16 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP004GetPaymentMethods</operationCode>
-  <operationVersion></operationVersion>
-  <Form></Form>
+    <operationCode>ISCOP004GetPaymentMethods</operationCode>
+    <operationVersion />
+    <paymentValue>120.00</paymentValue>
+    <paymentTypeId>1</paymentTypeId>
+    <buyerEmail />
+    <requests>
+      <requestNumber>1679</requestNumber>
+      <serviceCode>CES:SRV:000005469</serviceCode>
+      <entityCode>SIOE:ORG:070080000</entityCode>
+    </requests>
 </operationData>
 ```
 
@@ -115,10 +133,31 @@ Esta operação pode ser usada de forma bidirecional e serve para a comunicaçã
 **BETA**
 Esta operação serve para solicitar acesso a um formulário.
 
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|compEntityReqNumber|string|1..1|
+|userType|string|1....1
+|documentType|string|1....1
+|documentId|string|1....1|
+|comments|string|	0....1|
 
+```markdown
+<operationDaa>
+  <operationCode>ISCOP006FormAuthRequest</operationCode>
+  <operationVersion></operationVersion>
+  <compEntityReqNumber>?</compEntityReqNumber>
+  <userType>?</userType>
+  <documentType>?</documentType>
+  <documentId>?</documentId>
+  <comments>?</comments>
+</operationData>
+```
 ### Resposta a pedido de acesso
 **BETA**
 Esta operação serve para responder a um pedido de acesso a um formulário.
+
 
 ### Pedido de esclarecimentos
 **BETA**
