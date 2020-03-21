@@ -3,7 +3,6 @@
 A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto de operações que permitem integrar com as plataformas de serviços do [ePortugal](https://ePortugal.gov.pt)
 
 As operações apresentadas estarão de acordo com o levantamento e documentação efetuada.
-![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/amagovpt.jpg)
 
 ## Operações disponíveis
 
@@ -419,10 +418,8 @@ Para verificar o código associado ao tipo de documento, deverá ser acedido o s
 ### 	Local\Ponto de Atendimento
 Código identificador do Ponto de Atendimento no Catálogo de Entidades e Serviços.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dsiama/iscapi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/amagovpt.jpg)
