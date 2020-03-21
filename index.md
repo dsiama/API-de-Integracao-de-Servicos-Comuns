@@ -5,7 +5,7 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 As operações apresentadas estarão de acordo com o levantamento e documentação efetuada.
 
 
-# Operações existentes
+# Operações disponíveis
 
 
 ## Envio de formulário
@@ -21,15 +21,17 @@ pode ser originada a partir da plataforma de serviços ou do sistema de informa�
 ## Solicitar meio/forma de pagamento
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite solicitar os meios de pagamento para a tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
 
-**Necessita de protocolo com a Plataforma de Pagamentos da AMA para usar** 
+**Necessita de protocolo com a Plataforma de Pagamentos da AMA para usar**
 
 # Enviar notificações
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
+Esta comunicação escrita não pode enviar dados do processo , apenas apelar à sua visualização no ePortugal.
 
-# Solicitar envio de formulário
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Solicitar envio de formulário **BETA**
+É uma forma de solicitar o envio de um formulário, é um mecanismo disponível para a plataforma de serviços,
+solicitar o envio de um formulário no âmbito de uma alteração
 
-# Envio de um erro
+# Envio de um erro **BETA** 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 # Pedido de acesso
