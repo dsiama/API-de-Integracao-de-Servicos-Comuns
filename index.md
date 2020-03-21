@@ -106,8 +106,7 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
     </requests>
 </operationData>
 ```
-
-**Necessita de protocolo com a Plataforma de Pagamentos da AMA para usar**
+**Necessário ter protocolo com a AMA para utilizar a Plataforma de Pagamentos da AMAr**
 
 ### Enviar notificações
 Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
@@ -117,7 +116,9 @@ Esta comunicação escrita não pode enviar dados do processo , apenas apelar à
 |------------ | ------------|
 |OperationCode|String|1....1|
 |OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|receiver|String|1....1|
+|subject|String|1....1|
+|body|String|1....1|
 
 ```markdown
 <operationDaa>
@@ -145,8 +146,9 @@ solicitar o envio de um formulário no âmbito de uma alteração.
 <operationDaa>
   <operationCode>ISCOP001SendForm</operationCode>
   <operationVersion></operationVersion>
-  <Form></Form>
-</operationData>
+  <processNumber>PROC/487/2020</processNumber>
+  <requestNumber>694/2020</requestNumber>
+  <operationData>
 ```
 
 
@@ -158,16 +160,21 @@ Esta operação pode ser usada de forma bidirecional e serve para a comunicaçã
 |------------ | ------------|
 |OperationCode|String|1....1|
 |OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|processNumber|String|1....1|
+|requestNumber|String|1....1|
+|errorCode|String|1....1|
+|errorMessage|String|1....1|
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode>ISCOP012ProcessError</operationCode>
   <operationVersion></operationVersion>
-  <Form></Form>
+  <processNumber>PROC/487/2020</processNumber>
+  <requestNumber>694/2020</requestNumber>
+  <errorCode></errorCode>
+  <errorMessage></errorMessage>
 </operationData>
 ```
-
 
 ### Pedido de acesso
 **BETA**
@@ -201,20 +208,25 @@ Esta operação serve para responder a um pedido de acesso a um formulário.
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|compEntityReqNumber|string|1....1|
+|documentType|string|1....1|
+|result|string|1....1|
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
-  <operationVersion></operationVersion>
-  <Form></Form>
+<operationData>
+ 	      <operationCode>ISCOP007FormAuthReply</operationCode>
+         <operationVersion>1</operationVersion>
+         <compEntityReqNumber>?</compEntityReqNumber>
+         <documentType>?</documentType>
+         <result>?</result>
 </operationData>
 ```
 
 
-### Pedido de esclarecimentos
+### Pedido de esclarecimentos/elementos adicionais
 **BETA**
 Esta operação permite o envio de um pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido.
 
@@ -222,13 +234,21 @@ Esta operação permite o envio de um pedido de esclarecimentos ou recolha de in
 |------------ | ------------|
 |OperationCode|String|1....1|
 |OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|additionalInfoType|String|1....1|
+|additionalInfoDate|String|1....1|
+|additionalInfoReason|String|1....1|
+|additionalInfoPreDecision|String|1....1|
+|additionalInfoTermForReply|String|1....1|
 
 ```markdown
 <operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode> ISCOP008AdditionalInfoRequest</operationCode>
   <operationVersion></operationVersion>
-  <Form></Form>
+  <additionalInfoType>?</additionalInfoType>
+  <additionalInfoDate>?</additionalInfoDate>
+  <additionalInfoReason>?</additionalInfoReason>
+  <additionalInfoPreDecision>?</additionalInfoPreDecision>
+  <additionalInfoTermForReply>?</additionalInfoTermForReply>
 </operationData>
 ```
 
