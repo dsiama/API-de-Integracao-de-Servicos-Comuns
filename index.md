@@ -1,14 +1,20 @@
 ## Integração de Serviços Comuns
 
-A ISCAPI é uma camada de integração de sistemas com parceiros, com operações que suportam os serviços comuns que interagem com o [ePortugal](https://ePortugal.gov.pt)
+A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto de operações que permitem integrar com as plataformas de serviços do [ePortugal](https://ePortugal.gov.pt)
 
 As operações apresentadas estarão de acordo com o levantamento e documentação efetuada.
+
+
+### Operações existentes
+# Envio de Formulário
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 You can use the [editor on GitHub](https://github.com/dsiama/iscapi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Operações
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
