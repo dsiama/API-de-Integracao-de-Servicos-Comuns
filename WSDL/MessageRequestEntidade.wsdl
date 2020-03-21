@@ -1,0 +1,93 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://ama.gov.pt/services/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://ama.gov.pt/services/xsd">
+    <wsdl:documentation>Service Router for External Operations</wsdl:documentation>
+    <wsdl:types>
+        <xsd:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://ama.gov.pt/services/xsd">
+            <xsd:element name="messageRequest">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="messageData" type="tns:messageData"/>
+                        <xsd:element name="requestData" type="tns:requestData"/>
+                        <xsd:element name="operationData" type="tns:operationData"/>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="attachContext" type="tns:attachContext"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="messageRequestResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="result" type="xsd:boolean"/>
+                        <xsd:element minOccurs="0" name="message" type="xsd:string"/>
+                        <xsd:element minOccurs="0" name="messageGuid" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:complexType name="messageData">
+                <xsd:sequence>
+                    <xsd:element name="messageEntityId" type="xsd:string"/>
+                    <xsd:element minOccurs="0" name="messageRelatesToId" type="xsd:string"/>
+                    <xsd:element name="messageRelatesToEntityId" type="xsd:string"/>
+                    <xsd:element name="messageDate" type="xsd:dateTime"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="requestData">
+                <xsd:sequence>
+                    <xsd:element minOccurs="0" name="processNumber" type="xsd:string"/>
+                    <xsd:element name="requestNumber" type="xsd:string"/>
+                    <xsd:element minOccurs="0" name="requestExternalNumber" type="xsd:string"/>
+                    <xsd:element name="requestDate" type="xsd:dateTime"/>
+                    <xsd:element name="serviceCode" type="xsd:string"/>
+                    <xsd:element name="channel" type="xsd:string"/>
+                    <xsd:element name="entityCode" type="xsd:string"/>
+                    <xsd:element minOccurs="0" name="localCode" type="xsd:string"/>
+                    <xsd:element name="userCode" type="xsd:string"/>
+                    <xsd:element name="userName" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="operationData">
+                <xsd:sequence>
+                    <xsd:element name="operationCode" type="xsd:string"/>
+                    <xsd:element name="operationVersion" type="xsd:string"/>
+                    <xsd:any maxOccurs="unbounded" minOccurs="0" processContents="lax"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="attachContext">
+                <xsd:sequence>
+                    <xsd:element minOccurs="0" name="TTL" type="xsd:int"/>
+                    <xsd:element name="FileGuid" type="xsd:string"/>
+                    <xsd:element name="fileName" type="xsd:string"/>
+                    <xsd:element name="fileType" type="xsd:string"/>
+                    <xsd:element name="filePath" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="messageRequestRequest">
+        <wsdl:part name="parameters" element="tns:messageRequest"/>
+    </wsdl:message>
+    <wsdl:message name="messageRequestResponse">
+        <wsdl:part name="parameters" element="tns:messageRequestResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="messageRequestPortType">
+        <wsdl:operation name="messageRequest">
+            <wsdl:input message="tns:messageRequestRequest" wsaw:Action="http://ama.gov.pt/services/messageRequest"/>
+            <wsdl:output message="tns:messageRequestResponse" wsaw:Action="http://ama.gov.pt/services/xsd/messageRequestWSDL/messageRequestResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="messageRequestSoap12Binding" type="tns:messageRequestPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="messageRequest">
+            <soap12:operation soapAction="http://ama.gov.pt/services/messageRequest" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="messageRequest">
+        <wsdl:port name="messageRequestHttpSoap12Endpoint" binding="tns:messageRequestSoap12Binding">
+            <soap12:address location="http://X.X:X.X/ISCAPIAMAENTIDADE/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
