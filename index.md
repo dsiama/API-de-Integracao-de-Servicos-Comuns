@@ -18,7 +18,7 @@ O formulário submetido na plataforma de serviços da AMA é enviado através de
 |Form|Formulário eForms|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP001SendForm</operationCode>
   <operationVersion></operationVersion>
   <Form></Form>
@@ -68,7 +68,7 @@ pode ser originada a partir da plataforma de serviços ou do sistema de informa�
 |comments|string|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP002SendStateUpdate</operationCode>
   <operationVersion>1.0</operationVersion>
   <requestNumber>696/2020</requestNumber>
@@ -99,7 +99,7 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 |entityCode|string|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
     <operationCode>ISCOP004GetPaymentMethods</operationCode>
     <operationVersion />
     <paymentValue>120.00</paymentValue>
@@ -127,7 +127,7 @@ Esta comunicação escrita não pode enviar dados do processo , apenas apelar à
 |body|string|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP013SendNotifications</operationCode>
   <operationVersion>1</operationVersion>
   <receiver>email@email.com</receiver>
@@ -149,7 +149,7 @@ solicitar o envio de um formulário no âmbito de uma alteração.
 |Form|Formulário eForms|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP001SendForm</operationCode>
   <operationVersion></operationVersion>
   <processNumber>PROC/487/2020</processNumber>
@@ -172,7 +172,7 @@ Esta operação pode ser usada de forma bidirecional e serve para a comunicaçã
 |errorMessage|string|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP012ProcessError</operationCode>
   <operationVersion></operationVersion>
   <processNumber>PROC/487/2020</processNumber>
@@ -197,7 +197,7 @@ Esta operação serve para solicitar acesso a um formulário.
 |comments|string|	0....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP006FormAuthRequest</operationCode>
   <operationVersion></operationVersion>
   <compEntityReqNumber>?</compEntityReqNumber>
@@ -246,7 +246,7 @@ Esta operação permite o envio de um pedido de esclarecimentos ou recolha de in
 |additionalInfoTermForReply|string|1....1|
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP008AdditionalInfoRequest</operationCode>
   <operationVersion></operationVersion>
   <additionalInfoType>?</additionalInfoType>
@@ -317,7 +317,7 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 
 
 ```markdown
-<operationDaa>
+<operationData>
   <operationCode>ISCOP001SendForm</operationCode>
   <operationVersion></operationVersion>
   <processNumber>?</processNumber>
