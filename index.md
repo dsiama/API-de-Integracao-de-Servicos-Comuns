@@ -11,11 +11,22 @@ As operações apresentadas estarão de acordo com o levantamento e documentaç�
 ### Envio de formulário
 O formulário submetido na plataforma de serviços da AMA é enviado através desta operação.
 
+
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1.1|
-|OperationVersion|String|1.1|
-|Form|Formulário eForms|1.1|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+
+```
+
 
 ### Envio de número de processo externo
 A entidade que recebe o formulário deve utilizar esta operação para comunicar o nº de processo no seu sistema.
