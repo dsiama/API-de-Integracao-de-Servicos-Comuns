@@ -111,8 +111,11 @@ Esta comunicação escrita não pode enviar dados do processo , apenas apelar à
 ```markdown
 <operationDaa>
   <operationCode>ISCOP013SendNotifications</operationCode>
-  <operationVersion></operationVersion>
-  <Form></Form>
+  <operationVersion>1</operationVersion>
+  <receiver>email@email.com</receiver>
+  <subject>Tem uma nova notificação na Área Reservada do Licenciamento Industrital no ePortugal</subject>
+  <body>Recebeu uma nova notificação em 13/03/2020 às 11:59:46, relativa ao Pedido de Vistoria, Nº 16/2019-2 do estabelecimento Idioma de tons - Estamparia, Lda com o NUEI 030308000048.
+Consulte a sua Área Reservada do Licenciamento Industrial, no ePortugal, para visualizar detalhes.</body>
 </operationData>
 ```
 
@@ -121,12 +124,38 @@ Esta comunicação escrita não pode enviar dados do processo , apenas apelar à
 É uma forma de solicitar o envio de um formulário, é um mecanismo disponível para a plataforma de serviços,
 solicitar o envio de um formulário no âmbito de uma alteração.
 
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 
 ### Envio de um erro
 **BETA**
 Esta operação pode ser usada de forma bidirecional e serve para a comunicação de erros na troca de mensagens.
 
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 
 ### Pedido de acesso
@@ -155,26 +184,95 @@ Esta operação serve para solicitar acesso a um formulário.
 </operationData>
 ```
 ### Resposta a pedido de acesso
+
 **BETA**
 Esta operação serve para responder a um pedido de acesso a um formulário.
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 
 ### Pedido de esclarecimentos
 **BETA**
 Esta operação permite o envio de um pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido.
 
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
+
 ### Resposta a pedido de esclarecimentos
 **BETA**
 Esta operação permite o envio de uma resposta ao pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 ### Registo de uma decisão
 **BETA**
 Esta operação permite o registo de uma decisão associada a um processo.
 
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
+
 ### Pedido de dados resumo
 **BETA**
 Esta operação permite o envio de dados de serviço de forma resumida.
 
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|String|1....1|
+|OperationVersion|String|1....1|
+|Form|Formulário eForms|1....1|
+
+```markdown
+<operationDaa>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion></operationVersion>
+  <Form></Form>
+</operationData>
+```
 
 You can use the [editor on GitHub](https://github.com/dsiama/iscapi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
