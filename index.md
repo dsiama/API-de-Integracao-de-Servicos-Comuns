@@ -13,8 +13,8 @@ O formulário submetido na plataforma de serviços da AMA é enviado através de
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
 |Form|Formulário eForms|1....1|
 
 ```markdown
@@ -88,9 +88,15 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|paymentValue|string|1....1|
+|paymentTypeId|string|1....1|
+|buyerEmail|string|1....1|
+|requests|Requests|1....N|
+|requestNumber|string|1....1|
+|serviceCode|string|1....1|
+|entityCode|string|1....1|
 
 ```markdown
 <operationDaa>
@@ -114,11 +120,11 @@ Esta comunicação escrita não pode enviar dados do processo , apenas apelar à
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|receiver|String|1....1|
-|subject|String|1....1|
-|body|String|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|receiver|string|1....1|
+|subject|string|1....1|
+|body|string|1....1|
 
 ```markdown
 <operationDaa>
@@ -138,8 +144,8 @@ solicitar o envio de um formulário no âmbito de uma alteração.
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
 |Form|Formulário eForms|1....1|
 
 ```markdown
@@ -158,12 +164,12 @@ Esta operação pode ser usada de forma bidirecional e serve para a comunicaçã
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|processNumber|String|1....1|
-|requestNumber|String|1....1|
-|errorCode|String|1....1|
-|errorMessage|String|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|processNumber|string|1....1|
+|requestNumber|string|1....1|
+|errorCode|string|1....1|
+|errorMessage|string|1....1|
 
 ```markdown
 <operationDaa>
@@ -182,8 +188,8 @@ Esta operação serve para solicitar acesso a um formulário.
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
 |compEntityReqNumber|string|1..1|
 |userType|string|1....1
 |documentType|string|1....1
@@ -215,13 +221,12 @@ Esta operação serve para responder a um pedido de acesso a um formulário.
 |result|string|1....1|
 
 ```markdown
-<operationDaa>
 <operationData>
- 	      <operationCode>ISCOP007FormAuthReply</operationCode>
-         <operationVersion>1</operationVersion>
-         <compEntityReqNumber>?</compEntityReqNumber>
-         <documentType>?</documentType>
-         <result>?</result>
+  <operationCode>ISCOP007FormAuthReply</operationCode>
+  <operationVersion>1</operationVersion>
+  <compEntityReqNumber>?</compEntityReqNumber>
+  <documentType>?</documentType>
+  <result>?</result>
 </operationData>
 ```
 
@@ -232,17 +237,17 @@ Esta operação permite o envio de um pedido de esclarecimentos ou recolha de in
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|additionalInfoType|String|1....1|
-|additionalInfoDate|String|1....1|
-|additionalInfoReason|String|1....1|
-|additionalInfoPreDecision|String|1....1|
-|additionalInfoTermForReply|String|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|additionalInfoType|string|1....1|
+|additionalInfoDate|string|1....1|
+|additionalInfoReason|string|1....1|
+|additionalInfoPreDecision|string|1....1|
+|additionalInfoTermForReply|string|1....1|
 
 ```markdown
 <operationDaa>
-  <operationCode> ISCOP008AdditionalInfoRequest</operationCode>
+  <operationCode>ISCOP008AdditionalInfoRequest</operationCode>
   <operationVersion></operationVersion>
   <additionalInfoType>?</additionalInfoType>
   <additionalInfoDate>?</additionalInfoDate>
@@ -258,15 +263,19 @@ Esta operação permite o envio de uma resposta ao pedido de esclarecimentos ou 
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|additionalInfoReplyDate|timestamp|1....1|
+|additionalInfoReplyFeedback|string|1....1|
+|additionalInfoReplyPreDecision|string|1....1|
 
 ```markdown
-<operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
+<operationData>
+  <operationCode>ISCOP009AdditionalInfoReply</operationCode>
   <operationVersion></operationVersion>
-  <Form></Form>
+  <additionalInfoReplyDate>?</additionalInfoReplyDate>
+  <additionalInfoReplyFeedback>?</additionalInfoReplyFeedback>
+  <additionalInfoReplyPreDecision>?</additionalInfoReplyPreDecision>  
 </operationData>
 ```
 
@@ -276,15 +285,19 @@ Esta operação permite o registo de uma decisão associada a um processo.
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|processDecisionType|string|1....1|
+|processDecisionDate|timestamp|1....1|
+|processDecisionReason|string|1....1|
 
 ```markdown
-<operationDaa>
-  <operationCode>ISCOP001SendForm</operationCode>
-  <operationVersion></operationVersion>
-  <Form></Form>
+<operationData>
+<operationCode>ISCOP010ProcessDecision</operationCode>
+       <operationVersion></operationVersion>
+       <processDecisionType>?</processDecisionType>
+       <processDecisionDate>?</processDecisionDate>
+       <processDecisionReason>?</processDecisionReason>
 </operationData>
 ```
 
@@ -294,45 +307,37 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 
 |Elemento| Tipo | Cardinalidade|
 |------------ | ------------|
-|OperationCode|String|1....1|
-|OperationVersion|String|1....1|
-|Form|Formulário eForms|1....1|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|processNumber|string|1....1|
+|requestNumber|string|1....1|
+|params|param|1....N|
+|name|string|1....1|
+|value|string|1....1|
+
 
 ```markdown
 <operationDaa>
   <operationCode>ISCOP001SendForm</operationCode>
   <operationVersion></operationVersion>
-  <Form></Form>
+  <processNumber>?</processNumber>
+  <requestNumber>?</processNumber>
+  <params>
+     <param>
+      <name>Nome Requerente</nane>
+      <value>Exemplo</value>
+    </param>
+    <param>
+      <name>Apelido Requerente</nane>
+      <value>Exemplo 2 </value>
+    </param>
+    <param>
+      <name>Número Telemóvel</nane>
+      <value>900000000</value>
+    </param>
+  <params>
 </operationData>
 ```
-
-You can use the [editor on GitHub](https://github.com/dsiama/iscapi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Operações
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
