@@ -7,7 +7,39 @@ As operações apresentadas estarão de acordo com o levantamento e documentaç�
 
 ### Operações existentes
 # Envio de Formulário
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+# Envio de Nº processo externo
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Alteração de estado
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Pedir meios de pagamento
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Enviar notificações
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Solicitar envio de formulário
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Envio de um erro
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Pedido de acesso
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Resposta a pedido de acesso
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Pedido de esclarecimentos
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Resposta a pedido de esclarecimentos
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+# Registo de uma decisão
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 You can use the [editor on GitHub](https://github.com/dsiama/iscapi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
