@@ -1,3 +1,8 @@
+# Integração de Serviços Comuns
+A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto de operações que permitem integrar com as plataformas de serviços do [ePortugal](https://ePortugal.gov.pt)
+
+## Operações
+[Consultar as operações disponíveis](operacoes)
 
 # Tabelas de Valores
 
@@ -77,3 +82,10 @@ Para verificar o código associado ao tipo de documento, deverá ser acedido o s
 
 ## 	Local\Ponto de Atendimento
 Código identificador do Ponto de Atendimento no Catálogo de Entidades e Serviços.
+
+
+## Plataforma de Integração
+[Consultar aqui a informação sobre a Plataforma de Integração](iap)
+
+## Transferência de Ficheiros
+[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
