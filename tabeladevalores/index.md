@@ -87,6 +87,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 
 ## 	Códigos de erro na receção de número externo(ReplyCode)
+
 |Id| Valor |
 |------------ | ------------|
 |100 |	Aguarda Intervenção Manual ou Programada|
@@ -96,9 +97,10 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |500|	Erro Inesperado|
 
 ## 	Códigos de erro (ErrorCode)
-|100 |	Aguarda Intervenção Manual ou Programada|
+
 |Id| Valor |
 |------------ | ------------|
+|100 |	Aguarda Intervenção Manual ou Programada|
 |400|	Erro Aplicacional ou Formato Inesperado|
 |401|	Registo Duplicado ou inesperado|
 |403| Acesso não autorizado|
@@ -106,6 +108,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |500|	Erro Inesperado|
 
 ##	 Códigos de Ação
+
 |Id| Valor |
 |------------ | ------------|
 |1|	Preenchimento formulário|
@@ -143,6 +146,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |41|Correção|
 
 ##	Tipo de Taxa
+
 |Id| Valor |
 |------------ | ------------|
 |TA|Taxa Administrativa|
