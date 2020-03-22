@@ -53,12 +53,13 @@ Deverá ser desenvolvido do lado da entidade o serviço messageRequest recorrend
    O WS-Adressing define os cabeçalhos das mensagens que são aplicados às mensagens SOAP para determinar onde as mensagens devem ser enviadas e fornecer a correlação entre mensagens.
   De seguida são apresentados os atributos/elementos associados ao WS-Addressing:
 
-  __ &lt;MessageID&gt; __ - Identificador Único da mensagem – URI. Se uma mensagem é retransmitida, mantém o mesmo MessageID. Este elemento deve ser gerado pelo consumidor do serviço, a partir do qual será possível efetuar e identificar a localização da mensagem em todo o seu caminho. Este valor mantém-se inalterado até ao final do ciclo de vida da mensagem.  
+  __&lt;MessageID&gt;__ - Identificador Único da mensagem – URI. Se uma mensagem é retransmitida, mantém o mesmo MessageID. Este elemento deve ser gerado pelo consumidor do serviço, a partir do qual será possível efetuar e identificar a localização da mensagem em todo o seu caminho. Este valor mantém-se inalterado até ao final do ciclo de vida da mensagem.  
 
-  string &lt;RelatesTo&gt; string - Identifica a mensagem de origem através do MessageID aquando do envio da mensagem de resposta. Permite efetuar a correlação assíncrona de mensa-gens de resposta, com as respetivas mensagens de pedido.  
+  __&lt;RelatesTo&gt;__ - Identifica a mensagem de origem através do MessageID aquando do envio da mensagem de resposta. Permite efetuar a correlação assíncrona de mensa-gens de resposta, com as respetivas mensagens de pedido.  
 
-  string &lt;ReplyTo &gt; string -Especifica o endpoint reference para onde deve ser enviada a resposta para a mensagem. É de utilização obrigatória sempre que se consuma um serviço electrónico, ao qual é expectável a existência de uma resposta assíncrona correlacionada.
+  __;ReplyTo &gt;__-Especifica o endpoint reference para onde deve ser enviada a resposta para a mensagem. É de utilização obrigatória sempre que se consuma um serviço electrónico, ao qual é expectável a existência de uma resposta assíncrona correlacionada.
 
-  string &lt;To&gt; string - Especifica o endpoint reference destino desta mensagem.  I
+  __&lt;To&gt;__ - Especifica o endpoint reference destino desta mensagem.  I
 
-string &lt;Action &gt; string - dentifica a semântica da mensagem, ou seja, associa à mensagem o portType do WSDL para identificar se a mensagem é um string &lt;input&gt; string &lt;output&gt; string ou string &lt;fault&gt; string .
+__&lt;Action &gt;__ - dentifica a semântica da mensagem, ou seja, associa à mensagem o portType do WSDL para identificar se a mensagem é um string &lt;input&gt;
+__&lt;output&gt;__ ou __&lt;fault&gt;__.
