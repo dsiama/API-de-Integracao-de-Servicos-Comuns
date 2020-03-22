@@ -85,7 +85,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 
 ## Plataforma de Integração
-[Consultar aqui a informação sobre a Plataforma de Integração](iap)
+[Consultar aqui a informação sobre a Plataforma de Integração](..\iap)
 
 ## Transferência de Ficheiros
-[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
+[Consultar aqui a informação sobre a transferência de ficheiros](..\largefiles)

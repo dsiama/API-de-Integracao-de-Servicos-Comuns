@@ -337,6 +337,9 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 </operationData>
 ```
 
+## Tabelas de valores
+[Consultar as tabelas de valores](..\tabeladevalores)
+
 ## Plataforma de Integração
 [Consultar aqui a informação sobre a Plataforma de Integração](../iap)
 
