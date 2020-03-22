@@ -418,6 +418,6 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 ## Plataforma de Integração
 
-Having trouble with Pages? Check out our [Plataforma de Integração]({ BASE_PATH }}/ISC-API/iap/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [Plataforma de Integração](iap) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 ![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/amagovpt.jpg)
