@@ -59,4 +59,4 @@ Quando se receciona uma mensagem com a estrutura attachContext preenchida torna-
 
 
 ## Estrutura Fixa
-[Consultar aqui a informação sobre a estrutura fixa](..|EstruturaFixa)
+[Consultar aqui a informação sobre a estrutura fixa](..\EstruturaFixa)

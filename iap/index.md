@@ -112,4 +112,4 @@ retorno de sucesso.
 
 
 ## Estrutura Fixa
-[Consultar aqui a informação sobre a estrutura fixa](..|EstruturaFixa)
+[Consultar aqui a informação sobre a estrutura fixa](..\EstruturaFixa)
