@@ -1,3 +1,8 @@
 theme: jekyll-theme-minimal
+title: ISC API - Repositório
+logo: /assets/images/amagovpt.jpg
+description: Repositório da API de Integração de Serviços Comuns
 show_downloads: true
+google_analytics:
+
 
