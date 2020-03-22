@@ -96,7 +96,7 @@ Destino pode receber a mesma mensagem mais do que uma vez.
 Neste contexto, mensagens que sejam recebidas com o mesmo identificador (MessageID) pelo Sistema de Destino, após a primeira recepção, devem ser ignoradas. Este pressuposto baseia-se na
 garantia que o MessageID é único e gerado pela Entidade Consumidora.
 
-![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/ilustracao2.jpg)
+![GSD1 phenotype]({{ BASE_PATH }}/../ISC-API/assets/images/ilustracao2.jpg)
 
 A garantia de entrega é assegurada pela persistência de mensagens, que se representam na capacidade de armazenamento de mensagens e através de mecanismos de persistência garantem a
 ordem e a entrega das mensagens no destinatário. A invocação de um método acknowledge permite confirmar a recepção das mensagens no destinatário, que deste modo podem ser removidas do seu
