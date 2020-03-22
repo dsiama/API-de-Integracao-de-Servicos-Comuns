@@ -17,6 +17,6 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 [Consultar aqui a informação sobre a estrutura fixa](estruturafixa)
 
 ## Software
-![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/opensource.jpg)
+![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/opensource.png)
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/wso2.png)
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/liferay.png)
