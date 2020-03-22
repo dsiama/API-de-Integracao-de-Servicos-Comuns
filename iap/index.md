@@ -1,3 +1,9 @@
+## Operações
+[Consultar as operações disponíveis](operacoes)
+
+## Tabelas de valores
+[Consultar as tabelas de valores](tabeladevalores)
+
 # Plataforma de Integração
 
 
@@ -94,3 +100,7 @@ Os mecanismos de Garantia de Entrega implementado na Plataforma de Integração 
 Sistemas de Destino, todas as evocações assíncronas que devolvem um código HTTP de sucesso (HTTP 200 – OK ou HTTP 202 – Accepted). Os restantes códigos de retorno são sujeitos a retentativas
 automáticas (num máximo de 5 tentativas espaçadas de 10 minutos) até à obtenção de um código de
 retorno de sucesso.
+
+
+## Transferência de Ficheiros
+[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)

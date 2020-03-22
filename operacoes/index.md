@@ -1,5 +1,5 @@
 
-# Operações disponíveis
+## Operações
 As operações apresentadas representam as necessidades atuais e serão atualizadas conforme as necessidades.
 
 ## Envio de formulário
@@ -332,3 +332,9 @@ Esta operação permite o envio de dados de serviço de forma resumida.
   <params>
 </operationData>
 ```
+
+## Plataforma de Integração
+[Consultar aqui a informação sobre a Plataforma de Integração](iap)
+
+## Transferência de Ficheiros
+[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
