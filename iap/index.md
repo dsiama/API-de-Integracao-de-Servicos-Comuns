@@ -55,10 +55,10 @@ Deverá ser desenvolvido do lado da entidade o serviço messageRequest recorrend
 
   ** &lt;MessageID&gt; ** - Identificador Único da mensagem – URI. Se uma mensagem é retransmitida, mantém o mesmo MessageID. Este elemento deve ser gerado pelo consumidor do serviço, a partir do qual será possível efetuar e identificar a localização da mensagem em todo o seu caminho. Este valor mantém-se inalterado até ao final do ciclo de vida da mensagem.  
 
-  **<RelatesTo>**- Identifica a mensagem de origem através do MessageID aquando do envio da mensagem de resposta. Permite efetuar a correlação assíncrona de mensa-gens de resposta, com as respetivas mensagens de pedido.  
+  ** &lt;RelatesTo&gt; ** - Identifica a mensagem de origem através do MessageID aquando do envio da mensagem de resposta. Permite efetuar a correlação assíncrona de mensa-gens de resposta, com as respetivas mensagens de pedido.  
 
-  **<ReplyTo>** -Especifica o endpoint reference para onde deve ser enviada a resposta para a mensagem. É de utilização obrigatória sempre que se consuma um serviço electrónico, ao qual é expectável a existência de uma resposta assíncrona correlacionada.
+  ** &lt;ReplyTo &gt; ** -Especifica o endpoint reference para onde deve ser enviada a resposta para a mensagem. É de utilização obrigatória sempre que se consuma um serviço electrónico, ao qual é expectável a existência de uma resposta assíncrona correlacionada.
 
-  **<To>** - Especifica o endpoint reference destino desta mensagem.  I
+  ** &lt;To&gt; ** - Especifica o endpoint reference destino desta mensagem.  I
 
-**<Action>** - dentifica a semântica da mensagem, ou seja, associa à mensagem o portType do WSDL para identificar se a mensagem é um **<input>**, **<output>** ou **<fault>**.
+** &lt;Action &gt; ** - dentifica a semântica da mensagem, ou seja, associa à mensagem o portType do WSDL para identificar se a mensagem é um ** &lt;input&gt; ** &lt;output&gt; ** ou ** &lt;fault&gt; ** .
