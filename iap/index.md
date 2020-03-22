@@ -72,5 +72,25 @@ Essa resposta é remetida numa nova mensagem – __MessageID Y__ – para o emis
 
 ![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/ilustracao.jpg)
 
-A informação referente à utilização do protocolo WS-Addressing na Plataforma de In-tegração baseia-se nos standards e recomendações definidos pelo W3C (http://www.w3.org/2005/08/addressing/), como forma de suporte ao correlacionamento e configuração dinâmica no envio e receção de mensagens, baseado no modelo de co-municação assíncrono.
-Os serviços disponibilizados pelo Plataforma de Integração permitem a utilização de WS-Addressing, indicado pela tag , elemento presente em todos os WSDL's que sejam expostos pela Plataforma.
+A informação referente à utilização do protocolo WS-Addressing na Plataforma de In-tegração baseia-se nos standards e recomendações definidos pelo W3C (http://www.w3.org/2005/08/addressing/), como forma de suporte ao correlacionamento e configuração dinâmica no envio e receção de mensagens, baseado no modelo de comunicação assíncrono.
+Os serviços disponibilizados pelo Plataforma de Integração permitem a utilização de WS-Addressing, indicado pela tag let;wsaw:UsingAddressing
+/&gt;, , elemento presente em todos os WSDL's que sejam expostos pela Plataforma.
+
+
+Outra característica que se pretende na troca de mensagens é a Garantia de Entrega – toda e
+qualquer mensagem enviada pela Entidade é entregue na Plataforma de Integração.
+
+A funcionalidade de Garantia de entrega de mensagens em utilização na Plataforma de Integração é suportada sobre o perfil At-Least-Once. Este comportamento pode implicar que a Entidade de
+Destino pode receber a mesma mensagem mais do que uma vez.
+Neste contexto, mensagens que sejam recebidas com o mesmo identificador (MessageID) pelo Sistema de Destino, após a primeira recepção, devem ser ignoradas. Este pressuposto baseia-se na
+garantia que o MessageID é único e gerado pela Entidade Consumidora.
+
+![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/ilustracao2.jpg)
+
+A garantia de entrega é assegurada pela persistência de mensagens, que se representam na capacidade de armazenamento de mensagens e através de mecanismos de persistência garantem a
+ordem e a entrega das mensagens no destinatário. A invocação de um método acknowledge permite confirmar a recepção das mensagens no destinatário, que deste modo podem ser removidas do seu
+emissor.
+Os mecanismos de Garantia de Entrega implementado na Plataforma de Integração baseiam-se na verificação do código de retorno HTTP como forma de Acknowledge. São dados como entregues aos
+Sistemas de Destino, todas as evocações assíncronas que devolvem um código HTTP de sucesso (HTTP 200 – OK ou HTTP 202 – Accepted). Os restantes códigos de retorno são sujeitos a retentativas
+automáticas (num máximo de 5 tentativas espaçadas de 10 minutos) até à obtenção de um código de
+retorno de sucesso.
