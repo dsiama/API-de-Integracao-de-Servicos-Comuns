@@ -337,7 +337,7 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 ```
 
 ## Plataforma de Integração
-[Consultar aqui a informação sobre a Plataforma de Integração](iap)
+[Consultar aqui a informação sobre a Plataforma de Integração](../iap)
 
 ## Transferência de Ficheiros
-[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
+[Consultar aqui a informação sobre a transferência de ficheiros](../largefiles)
