@@ -32,25 +32,33 @@ Deverá ser desenvolvido do lado da entidade o serviço messageRequest recorrend
 
 ##	Desenvolvimento do Servidor
   No âmbito de configuração de serviços e processos a serem integrados com a Plataforma de Integração, e de acordo com as necessidades, será necessário que:
-  -	A Entidade implemente o serviço de acordo com o WSDL para que seja configurado na Plataforma de Integração.
+  -	Deve implementar o serviço de acordo com o WSDL para que seja configurado na Plataforma de Integração.
 
   No que diz respeito à integração orientada aos serviços são aqui incluídas as normas respeitantes aos Web Sevices que devem ser suportadas pelas Entidades visadas. A norma XML é utilizada na especificação do Web Service que é invocado para executar uma determinada tarefa ou um conjunto de tarefas e assim obter um resultado específico.
-  O XML é usado como linguagem de base para a especificação dos principais padrões que estruturam os Web Services:  
-  - WSDL – Web Service Description Language   SOAP – Simple Object Aplication Protocol Nesse âmbito, a descrição de um Web Ser-vice é efectuada através de uma estrutura WSDL que contém os detalhes de interacção que é possível estabelecer com o respectivo. Esta descrição contém o formato das men-sagens trocadas e os respectivos protocolos de transporte. A comunicação entre os vários Web Services e as entidades que os invocam é regrada pelo protocolo SOAP que des-creve os seu modo de interacção. A utilização do protocolo SOAP na Plataforma de Integração é suportada sobre transporte em HTTP (ou HTTPS de forma opcional), que é um protocolo independente e compatível com qualquer web browser ou servidor aplica-cional.
 
-  A utilização de SOAP sobre HTTP possui ainda como vantagens o estabeleci-mento simplificado a nível de regras de infra-estrutura em proxies e firewall, para além de ser atualmente considerado um protocolo que é independente do tipo de plataforma ou de linguagem usado nos diferentes sistemas.
+  O XML é usado como linguagem de base para a especificação dos principais padrões que estruturam os Web Services:  
+  - WSDL – Web Service Description Language  
+  - SOAP – Simple Object Aplication Protocol
+
+  Nesse âmbito, a descrição de um Web Service é efectuada através de uma estrutura WSDL que contém os detalhes de interação que é possível estabelecer com o respectivo. Esta descrição contém o formato das men-sagens trocadas e os respectivos protocolos de transporte. A comunicação entre os vários Web Services e as entidades que os invocam é regrada pelo protocolo SOAP que descreve os seu modo de interação.
+
+  A utilização do protocolo SOAP na Plataforma de Integração é suportada sobre transporte em HTTP (ou HTTPS de forma opcional), que é um protocolo independente e compatível com qualquer web browser ou servidor aplicacional.
+
+  A utilização de SOAP sobre HTTP possui ainda como vantagens o estabelecimento simplificado a nível de regras de infraestrutura em proxy e firewall, para além de ser atualmente considerado um protocolo que é independente do tipo de plataforma ou de linguagem usado nos diferentes sistemas.
   Um pedido SOAP sobre HTTP identifica o tipo de pedido que é efetuado sobre este protocolo. Uma mensagem SOAP contém informação estruturada em XML e contém os seguintes elementos:  
 
-   HTTP Headers – com informação específica do protocolo HTTP   SOAP Envelope – com informação específica do protocolo SOAP o Header ou cabe-çalho com informação; o Body ou corpo com informação de Request e Response; o Fault ou erro com informação descritiva de erros de processamento.
+   HTTP Headers – com informação específica do protocolo HTTP   SOAP Envelope – com informação específica do protocolo SOAP o Header ou cabeçalho com informação; o Body ou corpo com informação de Request e Response; o Fault ou erro com informação descritiva de erros de processamento.
   Embora o SOAP forneça os fundamentos da transmissão de mensagens, é necessária mais informação para fornecer diretrizes de mensagem em ambientes de transmissão assíncrona.
 
    O WS-Adressing define os cabeçalhos das mensagens que são aplicados às mensagens SOAP para determinar onde as mensagens devem ser enviadas e fornecer a correlação entre mensagens.
   De seguida são apresentados os atributos/elementos associados ao WS-Addressing:
 
-  <MessageID>- Identificador Único da mensagem – URI. Se uma mensagem é retrans-mitida, mantém o mesmo MessageID. Este elemento deve ser gerado pelo consumidor do serviço, a partir do qual será possível efetuar e identificar a localização da mensagem em todo o seu caminho. Este valor mantém-se inalterado até ao final do ciclo de vida da mensagem.  
+  **<MessageID>**- Identificador Único da mensagem – URI. Se uma mensagem é retransmitida, mantém o mesmo MessageID. Este elemento deve ser gerado pelo consumidor do serviço, a partir do qual será possível efetuar e identificar a localização da mensagem em todo o seu caminho. Este valor mantém-se inalterado até ao final do ciclo de vida da mensagem.  
 
-  <RelatesTo>- Identifica a mensagem de origem através do MessageID aquando do envio da mensagem de resposta. Permite efetuar a correlação assíncrona de mensa-gens de resposta, com as respetivas mensagens de pedido.  
+  **<RelatesTo>**- Identifica a mensagem de origem através do MessageID aquando do envio da mensagem de resposta. Permite efetuar a correlação assíncrona de mensa-gens de resposta, com as respetivas mensagens de pedido.  
 
-  <ReplyTo> -Especifica o endpoint reference para onde deve ser enviada a resposta para a mensagem. É de utilização obrigatória sempre que se consuma um serviço electrónico, ao qual é expectável a existência de uma resposta assíncrona correlacionada.  <To> - Especifica o endpoint reference destino desta mensagem.  I
+  **<ReplyTo>** -Especifica o endpoint reference para onde deve ser enviada a resposta para a mensagem. É de utilização obrigatória sempre que se consuma um serviço electrónico, ao qual é expectável a existência de uma resposta assíncrona correlacionada.
 
-  <Action> - dentifica a semântica da mensagem, ou seja, associa à mensagem o portType do WSDL para identificar se a mensagem é um <input>, <output> ou <fault>.
+  **<To>** - Especifica o endpoint reference destino desta mensagem.  I
+
+**<Action>** - dentifica a semântica da mensagem, ou seja, associa à mensagem o portType do WSDL para identificar se a mensagem é um **<input>**, **<output>** ou **<fault>**.
