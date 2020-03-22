@@ -112,6 +112,35 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 ```
 **Necessário ter protocolo com a AMA para utilizar a Plataforma de Pagamentos da AMA**
 
+## Envio de meios de pagamento
+Esta operação pode ser usada de forma bidirecional conforme os cenários , permite enviar os meios de pagamento.
+
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|OperationVersion|string|1....1|
+|paymentMovementId|string|1....1|
+|paymentDate|string|1....1|
+|paymentValue|string|1....1|
+|paymentTypeId|string|1....1|
+|paymentTypeData|string|1....1|
+|feeType|string|1....1|
+
+```markdown
+<operationData>
+    <operationCode>ISCOP005PaymentDataCommunication</operationCode>
+ 	   <operationVersion></operationVersion>
+ 	   <paymentMovementId>?</paymentMovementId>
+     <paymentDate>?</paymentDate>
+    <paymentValue>?</paymentValue>
+    <paymentTypeId>?</paymentTypeId>
+    <paymentTypeData>?</paymentTypeData>
+    <feeType>T</feeType>
+</operationData>
+```
+
 ## Enviar notificações
 Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
 Esta comunicação escrita não pode enviar dados do processo , apenas apelar à sua visualização no ePortugal.
