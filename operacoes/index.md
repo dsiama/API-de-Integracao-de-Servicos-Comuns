@@ -374,3 +374,7 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 
 ## Transferência de Ficheiros
 [Consultar aqui a informação sobre a transferência de ficheiros](..\largefiles)
+
+
+## Estrutura Fixa
+[Consultar aqui a informação sobre a estrutura fixa](..|EstruturaFixa)

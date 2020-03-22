@@ -55,3 +55,8 @@ Não é possível a substituição de ficheiros, depois do mesmos estarem submet
 Após a receção da mensagem de negócio pela entidade recetora, os ficheiros estão dis-poníveis através do respectivo endereço de download.
 Para aceder ao seu conteúdo, deve ser enviado na query string do pedido http um parâmetro com o nome”Id”, contendo o GUID do ficheiro pretendido.
 Quando se receciona uma mensagem com a estrutura attachContext preenchida torna-se necessário efetuar o download do ficheiro por forma a aceder ao mesmo. Para tal deverá aceder ao endereço respetivo de acordo com as instruções presentes.
+
+
+
+## Estrutura Fixa
+[Consultar aqui a informação sobre a estrutura fixa](..|EstruturaFixa)
