@@ -90,3 +90,6 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 ## Transferência de Ficheiros
 [Consultar aqui a informação sobre a transferência de ficheiros](..\largefiles)
+
+## Estrutura Fixa
+[Consultar aqui a informação sobre a estrutura fixa](..\estruturafixa)

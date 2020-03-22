@@ -110,6 +110,5 @@ retorno de sucesso.
 ## Transferência de Ficheiros
 [Consultar aqui a informação sobre a transferência de ficheiros](../largefiles)
 
-
 ## Estrutura Fixa
-[Consultar aqui a informação sobre a estrutura fixa](..\EstruturaFixa)
+[Consultar aqui a informação sobre a estrutura fixa](..\estruturafixa)

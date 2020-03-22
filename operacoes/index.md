@@ -377,4 +377,4 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 
 
 ## Estrutura Fixa
-[Consultar aqui a informação sobre a estrutura fixa](..\EstruturaFixa)
+[Consultar aqui a informação sobre a estrutura fixa](..\estruturafixa)

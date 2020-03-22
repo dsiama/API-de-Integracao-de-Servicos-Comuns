@@ -14,4 +14,4 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 [Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
 
 ## Estrutura Fixa
-[Consultar aqui a informação sobre a estrutura fixa](EstruturaFixa)
+[Consultar aqui a informação sobre a estrutura fixa](estruturafixa)
