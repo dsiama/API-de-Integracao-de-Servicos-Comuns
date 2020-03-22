@@ -53,7 +53,7 @@ Deverá ser desenvolvido do lado da entidade o serviço messageRequest recorrend
    O WS-Adressing define os cabeçalhos das mensagens que são aplicados às mensagens SOAP para determinar onde as mensagens devem ser enviadas e fornecer a correlação entre mensagens.
   De seguida são apresentados os atributos/elementos associados ao WS-Addressing:
 
-  __MessageID__- Identificador Único da mensagem – URI. Se uma mensagem é retransmitida, mantém o mesmo MessageID. Este elemento deve ser gerado pelo consumidor do serviço, a partir do qual será possível efetuar e identificar a localização da mensagem em todo o seu caminho. Este valor mantém-se inalterado até ao final do ciclo de vida da mensagem.  
+  **&lt;MessageID&gt;** - Identificador Único da mensagem – URI. Se uma mensagem é retransmitida, mantém o mesmo MessageID. Este elemento deve ser gerado pelo consumidor do serviço, a partir do qual será possível efetuar e identificar a localização da mensagem em todo o seu caminho. Este valor mantém-se inalterado até ao final do ciclo de vida da mensagem.  
 
   **<RelatesTo>**- Identifica a mensagem de origem através do MessageID aquando do envio da mensagem de resposta. Permite efetuar a correlação assíncrona de mensa-gens de resposta, com as respetivas mensagens de pedido.  
 
