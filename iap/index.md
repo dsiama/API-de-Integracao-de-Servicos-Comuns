@@ -65,9 +65,9 @@ __&lt;Action &gt;__ - dentifica a semântica da mensagem, ou seja, associa à me
 __&lt;output&gt;__ ou __&lt;fault&gt;__.
 
 
-**	Endereçamento via WS-Addressing
+##Endereçamento via WS-Addressing
 A seguinte ilustração descreve o caso em que um serviço é invocado por um emissor
--__Endpoint A__  – cujo receptor –__Endpoint B__ – deve enviar uma resposta à respetiva mensagem – __MessageID X__.
+__Endpoint A__  – cujo receptor –__Endpoint B__ – deve enviar uma resposta à respetiva mensagem – __MessageID X__.
 Essa resposta é remetida numa nova mensagem – __MessageID Y__ – para o emissor – Endpoint A – da mensagem de origem – __MessageID X__.
 
 ![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/ilustracao.jpg)
