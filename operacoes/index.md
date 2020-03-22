@@ -130,14 +130,14 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 
 ```markdown
 <operationData>
-    <operationCode>ISCOP005PaymentDataCommunication</operationCode>
- 	   <operationVersion></operationVersion>
- 	   <paymentMovementId>?</paymentMovementId>
-     <paymentDate>?</paymentDate>
-    <paymentValue>?</paymentValue>
-    <paymentTypeId>?</paymentTypeId>
-    <paymentTypeData>?</paymentTypeData>
-    <feeType>T</feeType>
+  <operationCode>ISCOP005PaymentDataCommunication</operationCode>
+  <operationVersion></operationVersion>
+  <paymentMovementId>?</paymentMovementId>
+  <paymentDate>?</paymentDate>
+  <paymentValue>?</paymentValue>
+  <paymentTypeId>?</paymentTypeId>
+  <paymentTypeData>?</paymentTypeData>
+  <feeType>T</feeType>
 </operationData>
 ```
 
