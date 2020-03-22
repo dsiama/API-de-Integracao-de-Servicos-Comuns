@@ -4,7 +4,7 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 - [Regressar ao ecrã inicial](../)
 
 ## Operações
-[Consultar as operações disponíveis](..\operacoes)
+[Consultar as operações disponíveis](../operacoes)
 
 # Tabelas de Valores
 
@@ -87,7 +87,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 
 ## Plataforma de Integração
-[Consultar aqui a informação sobre a Plataforma de Integração](..\iap)
+[Consultar aqui a informação sobre a Plataforma de Integração](../iap)
 
 ## Transferência de Ficheiros
-[Consultar aqui a informação sobre a transferência de ficheiros](..\largefiles)
+[Consultar aqui a informação sobre a transferência de ficheiros](../largefiles)
