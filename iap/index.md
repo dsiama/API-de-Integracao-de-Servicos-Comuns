@@ -81,7 +81,7 @@ A seguinte ilustração descreve o caso em que um serviço é invocado por um em
 __Endpoint A__  – cujo receptor –__Endpoint B__ – deve enviar uma resposta à respetiva mensagem – __MessageID X__.
 Essa resposta é remetida numa nova mensagem – __MessageID Y__ – para o emissor – Endpoint A – da mensagem de origem – __MessageID X__.
 
-![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/ilustracao.jpg)
+![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/ilustracao.jpg)
 
 A informação referente à utilização do protocolo WS-Addressing na Plataforma de In-tegração baseia-se nos standards e recomendações definidos pelo W3C (http://www.w3.org/2005/08/addressing/), como forma de suporte ao correlacionamento e configuração dinâmica no envio e receção de mensagens, baseado no modelo de comunicação assíncrono.
 Os serviços disponibilizados pelo Plataforma de Integração permitem a utilização de WS-Addressing, indicado pela tag let;wsaw:UsingAddressing
