@@ -1,0 +1,148 @@
+;Service Name;Service Code for Testing;Service Code for Staging;Service Code for Production
+;Comunicações - Alteração da titularidade ou da designação social;CES:SRV:000005462;CES:SRV:000006264;CES:SRV:000005758
+;Outros Pedidos - Registo de estabelecimento industrial;CES:SRV:000005463;CES:SRV:000006265;CES:SRV:000005759
+;Comunicações - Reinício de atividade;CES:SRV:000005464;CES:SRV:000006266;CES:SRV:000005760
+;Comunicações - Suspensão de atividade;CES:SRV:000005466;CES:SRV:000006268;CES:SRV:000005762
+;Comunicações - Comunicações diversas;CES:SRV:000005467;CES:SRV:000006269;CES:SRV:000005763
+;Consultas - Título de exploração;CES:SRV:000005468;CES:SRV:000006270;CES:SRV:000005764
+;Outros Pedidos - Vistoria;CES:SRV:000005469;CES:SRV:000006271;CES:SRV:000005765
+;Comunicações - Alteração de Representante;CES:SRV:000005472;CES:SRV:000006272;CES:SRV:000005766
+;Comunicações - Início de atividade;CES:SRV:000005473;CES:SRV:000006273;CES:SRV:000005760
+;Outros Pedidos - Renovação de licença de ambiente;CES:SRV:000005474;CES:SRV:000006274;CES:SRV:000006282
+;Interações com requerente;CES:SRV:000005859;CES:SRV:000006275;CES:SRV:000006283
+;Alojamento local - registo da atividade;CES:SRV:000001162;CES:SRV:000002072;CES:SRV:000002072
+;Alojamento local - alteração de dados;CES:SRV:000001160;CES:SRV:000002070;CES:SRV:000002070
+;Alojamento Local - cessação;CES:SRV:000001161;CES:SRV:000002071;CES:SRV:000002071
+;Segurança contra incêndio em edifícios - Pedido de parecer a um projeto de especialidade de SCIE;CES:SRV:000005876;CES:SRV:000006286;CES:SRV:000006497
+;Fundações Portuguesas - Pedido de Alteração de Representante;CES:SRV:000005459;CES:SRV:000006279;CES:SRV:000006520
+;Fundações Estrangeiras - Pedido de Autorização de Representação Permanente;CES:SRV:000005870;CES:SRV:000005859;CES:SRV:000006276
+;Segurança contra incêndio em edifícios - Pedido de parecer a medidas de autoproteção;CES:SRV:000005877;CES:SRV:000006287;CES:SRV:000006496
+;Segurança contra incêndio em edifícios - Pedido de realização de inspeção regular;CES:SRV:000005878;CES:SRV:000006288;CES:SRV:000006498
+;Segurança contra incêndio em edifícios - Pedido de realização de vistoria;CES:SRV:000005879;CES:SRV:000006289;CES:SRV:000006499
+;Segurança contra incêndio em edifícios - Pedido de reapreciação de medidas de autoproteção;CES:SRV:000005880;CES:SRV:000006290;CES:SRV:000006500
+;Segurança contra incêndio em edifícios - pedido de reapreciação de projeto de especialidade de SCIE;CES:SRV:000005881;CES:SRV:000006291;CES:SRV:000006501
+;Segurança contra incêndio em edifícios - pedido de reconhecimento de ação de formação;CES:SRV:000005882;CES:SRV:000006292;CES:SRV:000006502
+;Segurança contra incêndio em edifícios - pedido de registo de entidades para comercialização, instalação e/ou manutenção de produtos e equipamentos de SCIE;CES:SRV:000005883;CES:SRV:000006293;CES:SRV:000006503
+;Segurança contra incêndio em edifícios - Pedido de repetição de Vistoria;CES:SRV:000005884;CES:SRV:000006294;CES:SRV:000006504
+;Segurança contra incêndio em edifícios - Pedido de repetição de inspeção regular;CES:SRV:000005885;CES:SRV:000006295;CES:SRV:000006506
+;Segurança contra incêndio em edifícios - Pedido de alteração de dados de registo de entidade solicitado em papel;CES:SRV:000005886;CES:SRV:000006296;CES:SRV:000006495
+;Segurança contra incêndio em edifícios - pedido de alteração de dados de ação de formação;CES:SRV:000005887;CES:SRV:000006297;CES:SRV:000006494
+;Segurança contra incêndio em edifícios - pedido de alteração ao registo de entidades que exerçam a atividade de comercialização, instalação e/ou manutenção de produtos e equipamentos de SCIE;CES:SRV:000005888;CES:SRV:000006298;CES:SRV:000006493
+;Segurança contra incêndio em edifícios - Denúncia ou queixa anónima;Não integra;Não integra;Não integra
+;Fundações Portuguesas - Pedido de reconhecimento;CES:SRV:000005863;CES:SRV:000006363;CES:SRV:000005858
+;Fundações Portuguesas - Pedido de Alteração Estatutária;CES:SRV:000005864;CES:SRV:000006364;CES:SRV:000005959
+;Fundações Portuguesas - Pedido de Extinção;CES:SRV:000005865;CES:SRV:000006365;CES:SRV:000006271
+;Fundações Portuguesas - Pedido de Autorização de Alienação de Imóveis;CES:SRV:000005866;CES:SRV:000006366;CES:SRV:000006272
+;Fundações Portuguesas - Pedido de Declaração de Utilidade Pública;CES:SRV:000005867;CES:SRV:000006367;CES:SRV:000006273
+;Fundações Portuguesas - Pedido de Renovação do Estatuto de Utilidade Pública;CES:SRV:000005868;CES:SRV:000006277;CES:SRV:000006274
+;Fundações Portuguesas - Envio de Comunicações Legais Obrigatórias;CES:SRV:000005869;CES:SRV:000006278;CES:SRV:000006275
+;Fundações Estrangeiras - Pedido de Declaração de Utilidade Pública;CES:SRV:000005871;CES:SRV:000005858;CES:SRV:000006277
+;Fundações Estrangeiras - Pedido de Renovação do Estatuto de Utilidade Pública;CES:SRV:000005872;CES:SRV:000006280;CES:SRV:000006278
+;Fundações Estrangeiras - Envio de Comunicações Legais Obrigatórias;CES:SRV:000005873;CES:SRV:000006281;CES:SRV:000006279
+;Entidades de utilidade pública - Pedido de Declaração de Utilidade Pública;CES:SRV:000005874;CES:SRV:000006283;CES:SRV:000006280
+;Entidades de utilidade pública - Envio de Comunicações Legais Obrigatórias;CES:SRV:000005875;CES:SRV:000006284;CES:SRV:000006281
+;Fundações Portuguesas - Pedido de Alteração de Representante;CES:SRV:000005459;CES:SRV:000006279;CES:SRV:000006520
+;Fundações Estrangeiras - Pedido de Alteração de Representante;CES:SRV:000005891;CES:SRV:000006282;CES:SRV:000006519
+;Entidades de Utilidade Pública - Pedido de Alteração de Representante;CES:SRV:000005890;CES:SRV:000006285;CES:SRV:000006521
+;Comunicações - Cessação de atividade;CES:SRV:000005892;CES:SRV:000006267;CES:SRV:000005761
+;Equipamento sob pressão - alteração da designação social ou mudança de titularidade;CES:SRV:000001695;CES:SRV:000002625;CES:SRV:000002625
+;Equipamento sob pressão – autorização de funcionamento;CES:SRV:000001696;CES:SRV:000002626;CES:SRV:000002626
+;Equipamento sob pressão – autorização prévia de instalação;CES:SRV:000001697;CES:SRV:000002627;CES:SRV:000002627
+;Equipamento sob pressão - 2ª via da placa de registo (se placa extraviada ou obsoleta);CES:SRV:000001698;CES:SRV:000006369;CES:SRV:000006523
+;Equipamento sob pressão - placa de registo;CES:SRV:000001699;CES:SRV:000002629;CES:SRV:000002629
+;Equipamento sob pressão – registo;CES:SRV:000001700;CES:SRV:000002630;CES:SRV:000002630
+;Equipamento sob pressão – renovação da autorização de funcionamento;CES:SRV:000001701;CES:SRV:000002631;CES:SRV:000002631
+;Equipamento sob pressão - retirada de serviço de forma definitiva (cancelamento);CES:SRV:000001702;CES:SRV:000002632;CES:SRV:000002632
+;Equipamento sob pressão – segunda via de certificado;CES:SRV:000001703;CES:SRV:000002633;CES:SRV:000002633
+;Equipamento sob pressão - Substituição da Prova de Pressão por Ensaio Alternativo;CES:SRV:000005894;CES:SRV:000006465;CES:SRV:000006397
+;Equipamento sob pressão - colocação fora de serviço (utilização suspensa);CES:SRV:000005895;CES:SRV:000002628;CES:SRV:000002628
+;Comércio por grosso e a retalho de produtos alimentares - Exploração de estabelecimento ou armazém;CES:SRV:000001386;CES:SRV:000002294;CES:SRV:000002294
+;Comércio por grosso e a retalho de produtos alimentares- Alteração de estabelecimento ou armazém - Continente;CES:SRV:000001384;CES:SRV:000002292;CES:SRV:000002292
+;Comércio por grosso e a retalho de produtos alimentares - Encerramento de estabelecimento ou armazém;CES:SRV:000001385;CES:SRV:000002293;CES:SRV:000002293
+;Comércio a retalho em grande superfície comercial inserida em conjunto comercial - alteração de estabelecimento;CES:SRV:000001367;CES:SRV:000002274;CES:SRV:000002274
+;Comércio a retalho em grande superfície comercial inserida em conjunto comercial - Exploração de estabelecimento ou armazém;CES:SRV:000001369;CES:SRV:000002276;CES:SRV:000002276
+;Comércio a retalho em grande superfície comercial inserida em conjunto comercial - Encerramento de estabelecimento ou armazém;CES:SRV:000001368;CES:SRV:000002275;CES:SRV:000002275
+;Comércio a retalho em estabelecimento que pertença a uma empresa que utilize uma ou mais insígnias ou esteja integrado num grupo - Exploração de estabelecimento ou armazém;CES:SRV:000001366;CES:SRV:000002273;CES:SRV:000002273
+;Comércio a retalho em estabelecimento que pertença a uma empresa que utilize uma ou mais insígnias ou esteja integrado num grupo – alteração de estabelecimento;CES:SRV:000001361;CES:SRV:000002268;CES:SRV:000002268
+;Comércio a retalho em estabelecimento que pertença a uma empresa que utilize uma ou mais insígnias ou esteja integrado num grupo - Encerramento de estabelecimento ou armazém - Continente;CES:SRV:000001364;CES:SRV:000002271;CES:SRV:000002271
+;Comércio a retalho de animais de companhia e respetivos alimentos – alteração de estabelecimento;CES:SRV:000001358;CES:SRV:000002265;CES:SRV:000002265
+;Comércio a retalho de animais de companhia e respetivos alimentos - Exploração de estabelecimento ou armazém;CES:SRV:000001360;CES:SRV:000002267;CES:SRV:000002267
+;Comércio a retalho de animais de companhia e respetivos alimentos- Encerramento de estabelecimento ou armazém;CES:SRV:000001359;CES:SRV:000002266;CES:SRV:000002266
+;SEX-SHOP - Exploração de estabelecimento;CES:SRV:000002104;CES:SRV:000003036;CES:SRV:000003036
+;SEX-SHOP - Alteração de estabelecimento;CES:SRV:000002100;CES:SRV:000003032;CES:SRV:000003032
+;SEX-SHOP - Encerramento de estabelecimento;CES:SRV:000002102;CES:SRV:000003034;CES:SRV:000003034
+;Feirante ou vendedor ambulante - acesso à atividade;CES:SRV:000001530;CES:SRV:000002460;CES:SRV:000002460
+;Feirante ou vendedor ambulante - alteração da atividade;CES:SRV:000001532;CES:SRV:000002462;CES:SRV:000002462
+;Feirante ou vendedor ambulante – cessação da atividade;CES:SRV:000001534;CES:SRV:000002464;CES:SRV:000002464
+;Organização de feira por entidade privada - comunicação;CES:SRV:000001856;CES:SRV:000002786;CES:SRV:000002786
+;Manutenção e reparação de veículos automóveis, motociclos e ciclomotores - Exploração de oficina;CES:SRV:000001707;CES:SRV:000002637;CES:SRV:000002637
+;Manutenção e reparação de veículos automóveis, motociclos e ciclomotores - alteração de oficina;CES:SRV:000001705;CES:SRV:000002635;CES:SRV:000002635
+;Manutenção e reparação de veículos automóveis, motociclos e ciclomotores - Encerramento de oficina;CES:SRV:000001706;CES:SRV:000002636;CES:SRV:000002636
+;Adaptação e reparação de veículos automóveis utilizadores de gases de petróleo liquefeito (GPL) e gás natural comprimido e liquefeito (GN) - Exploração de oficina;CES:SRV:000001124;CES:SRV:000002033;CES:SRV:000002033
+;Adaptação e reparação de veículos automóveis utilizadores de gases de petróleo liquefeito (GPL) e gás natural comprimido e liquefeito (GN) – alteração de oficina;CES:SRV:000001122;CES:SRV:000002031;CES:SRV:000002031
+;Adaptação e reparação de veículos automóveis utilizadores de gases de petróleo liquefeito (GPL) e gás natural comprimido e liquefeito (GN) - Encerramento de oficina;CES:SRV:000001123;CES:SRV:000002032;CES:SRV:000002032
+;LAVANDARIA - Exploração de estabelecimento;CES:SRV:000001686;CES:SRV:000002616;CES:SRV:000002616
+;LAVANDARIA - Alteração de estabelecimento;CES:SRV:000001684;CES:SRV:000002614;CES:SRV:000002614
+;LAVANDARIA - Encerramento de estabelecimento;CES:SRV:000001685;CES:SRV:000002615;CES:SRV:000002615
+;Centro de bronzeamento artificial – exploração de estabelecimento;CES:SRV:000001302;CES:SRV:000002210;CES:SRV:000002210
+;Centro de bronzeamento artificial – Alteração de estabelecimento;CES:SRV:000001303;CES:SRV:000002211;CES:SRV:000002211
+;Centro de bronzeamento artificial – Encerramento de estabelecimento;CES:SRV:000001304;CES:SRV:000002212;CES:SRV:000002212
+;Piercings e tatuagens - Exploração de estabelecimento;CES:SRV:000001927;CES:SRV:000002857;CES:SRV:000002857
+;Piercings e tatuagens - alteração de estabelecimento;CES:SRV:000001925;CES:SRV:000002855;CES:SRV:000002855
+;Piercings e tatuagens - Encerramento de estabelecimento;CES:SRV:000001926;CES:SRV:000002856;CES:SRV:000002856
+;FUNERÁRIA - Exploração de estabelecimento;CES:SRV:000001578;CES:SRV:000002508;CES:SRV:000002508
+;FUNERÁRIA - Comunicação de responsável técnico;CES:SRV:000001574;CES:SRV:000002504;CES:SRV:000002504
+;FUNERÁRIA - Comunicação de alteração de responsável técnico;CES:SRV:000001572;CES:SRV:000002502;CES:SRV:000002502
+;FUNERÁRIA - Alteração de estabelecimento;CES:SRV:000001570;CES:SRV:000002500;CES:SRV:000002500
+;FUNERÁRIA - Encerramento de estabelecimento;CES:SRV:000001576;CES:SRV:000002506;CES:SRV:000002506
+;FUNERÁRIA - Registo de tanatoprator;CES:SRV:000002132;CES:SRV:000003064;CES:SRV:000003064
+;Comércio por grosso de géneros alimentícios de origem animal com temperatura controlada - Exploração de estabelecimento;CES:SRV:000001380;CES:SRV:000002287;CES:SRV:000002287
+;Comércio por grosso de géneros alimentícios de origem animal com temperatura controlada – alteração de estabelecimento ou armazém;CES:SRV:000001378;CES:SRV:000002285;CES:SRV:000002285
+;Comércio por grosso de géneros alimentícios de origem animal com temperatura controlada - Encerramento de estabelecimento;CES:SRV:000001379;CES:SRV:000002286;CES:SRV:000002286
+;Comércio por grosso e a retalho de alimentos para animais de criação - Exploração de estabelecimento;CES:SRV:000001383;CES:SRV:000002290;CES:SRV:000002290
+;Comércio por grosso e a retalho de alimentos para animais de criação – Alteração de estabelecimento ou armazém;CES:SRV:000001381;CES:SRV:000002288;CES:SRV:000002288
+;Comércio por grosso e a retalho de alimentos para animais de criação - Encerramanto de estabelecimento;CES:SRV:000001382;CES:SRV:000002289;CES:SRV:000002289
+;Centro comercial tradicional/especializado - Autorização conjunta de instalação;CES:SRV:000001287;CES:SRV:000002195;CES:SRV:000002195
+;Centro comercial tradicional/especializado - Autorização conjunta de alteração significativa;CES:SRV:000001286;CES:SRV:000002194;CES:SRV:000002194
+;Centro comercial tradicional/especializado - Prorrogação da autorização;CES:SRV:000001289;CES:SRV:000002197;CES:SRV:000002197
+;Centro comercial tradicional/especializado - Encerramento;CES:SRV:000001288;CES:SRV:000002196;CES:SRV:000002196
+;Grande superfície comercial - autorização conjunta de instalação;CES:SRV:000001583;CES:SRV:000002513;CES:SRV:000002513
+;Grande superfície comercial - Autorização conjunta de alteração significativa;CES:SRV:000001582;CES:SRV:000002512;CES:SRV:000002512
+;Grande superfície comercial - Prorrogação da autorização;CES:SRV:000001588;CES:SRV:000002512;CES:SRV:000002518
+;Grande superfície comercial - Comunicação de encerramento;CES:SRV:000001586;CES:SRV:000002516;CES:SRV:000002516
+;Comércio a retalho não sedentário - publicação de regulamento;CES:SRV:000001370;CES:SRV:000002277;CES:SRV:000002277
+;Restauração e Bebidas - Exploração de estabelecimento;CES:SRV:000002070;CES:SRV:000003002;CES:SRV:000003002
+;Restauração e Bebidas - Alteração de estabelecimento;CES:SRV:000002068;CES:SRV:000003000;CES:SRV:000003000
+;Restauração e Bebidas - Encerramento de estabelecimento;CES:SRV:000002069;CES:SRV:000003001;CES:SRV:000003001
+;Restauração e bebidas não sedentária - Exercício da atividade;CES:SRV:000002076;CES:SRV:000003008;CES:SRV:000003008
+;Restauração e bebidas não sedentária - Alteração da atividade;CES:SRV:000002074;CES:SRV:000003006;CES:SRV:000003006
+;Restauração e bebidas não sedentária - Cessação da atividade;CES:SRV:000002075;CES:SRV:000003007;CES:SRV:000003007
+;Restauração e bebidas com dispensa de requisitos - Exploração de estabelecimento;CES:SRV:000002073;CES:SRV:000003005;CES:SRV:000003005
+;Restauração e bebidas com dispensa de requisitos - Alteração de estabelecimento;CES:SRV:000002071;CES:SRV:000003003;CES:SRV:000003003
+;Restauração e bebidas com dispensa de requisitos - Encerramento de estabelecimento;CES:SRV:000002072;CES:SRV:000003004;CES:SRV:000003004
+;Leiloeira - Autorização para o exercício da atividade;CES:SRV:000001689;CES:SRV:000002619;CES:SRV:000002619
+;Leiloeira - Envio de seguro, garantia financeira ou instrumento equivalente;CES:SRV:000001693;CES:SRV:000002623;CES:SRV:000002623
+;Leiloeira - Abertura de estabelecimento;CES:SRV:000001687;CES:SRV:000002617;CES:SRV:000002617
+;Leiloeira - Alteração;CES:SRV:000001688;CES:SRV:000002618;CES:SRV:000002618
+;Leiloeira - Cessação de atividade;CES:SRV:000001690;CES:SRV:000002620;CES:SRV:000002620
+;Leiloeira - Consulta de registo de empresa e estabelecimento de atendimento ao público;CES:SRV:000001691;CES:SRV:000002621;CES:SRV:000002621
+;Leiloeira - Encerramento de estabelecimento;CES:SRV:000001692;CES:SRV:000002622;CES:SRV:000002622
+;Prestamista - Autorização para o exercício da atividade;CES:SRV:000001953;CES:SRV:000002883;CES:SRV:000002883
+;Prestamista - Envio de seguro;CES:SRV:000001956;CES:SRV:000002886;CES:SRV:000002886
+;Prestamista - Abertura de estabelecimento;CES:SRV:000001951;CES:SRV:000002881;CES:SRV:000002881
+;Prestamista - Alteração à atividade;CES:SRV:000001952;CES:SRV:000002882;CES:SRV:000002882
+;Prestamista - cessação da atividade;CES:SRV:000001954;CES:SRV:000002884;CES:SRV:000002884
+;Prestamista - Encerramento de estabelecimento;CES:SRV:000001955;CES:SRV:000002885;CES:SRV:000002885
+;Importação e exportação de diamantes em bruto - cessação da atividade;CES:SRV:000001618;CES:SRV:000002548;CES:SRV:000002548
+;Importação e exportação de diamantes em bruto - comunicação de alterações;CES:SRV:000001619;CES:SRV:000002549;CES:SRV:000002549
+;Importação e exportação de diamantes em bruto - consulta de registos de operadores económicos;CES:SRV:000001620;CES:SRV:000002550;CES:SRV:000002550
+;Importação e exportação de diamantes em bruto - licenciamento;CES:SRV:000001622;CES:SRV:000002552;CES:SRV:000002552
+;Comunicação de Instalação e Exploração (indústrias alimentares que usam matéria prima de origem animal);CES:SRV:000005471;CES:SRV:000006566;CES:SRV:000006565
+;Comunicação de Instalação e Exploração;CES:SRV:000005757;CES:SRV:000006567;CES:SRV:000006566
+;Comunicação de Alteração e Exploração (indústrias alimentares que usam matéria prima de origem animal);CES:SRV:000005470;CES:SRV:000006568;CES:SRV:000006567
+;Alojamento Local - Correção de dados;CES:SRV:000005962;CES:SRV:000007171;CES:SRV:000006770
+;Alojamento Local - Cancelamento do registo;CES:SRV:000005963;CES:SRV:000007172;CES:SRV:000006771
+;Alojamento Local - Registo de estabelecimentos já existentes;CES:SRV:000005964;CES:SRV:000007173;CES:SRV:000006772
+;;;;
+;;;;
+;;;;
