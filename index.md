@@ -12,5 +12,3 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 
 ## Transferência de Ficheiros
 [Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
-
-![GSD1 phenotype]({{ BASE_PATH }}/ISC-API/assets/images/amagovpt.jpg)
