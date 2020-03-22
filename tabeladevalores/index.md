@@ -86,6 +86,68 @@ Para verificar o código associado ao tipo de documento, deverá ser acedido o s
 Código identificador do Ponto de Atendimento no Catálogo de Entidades e Serviços.
 
 
+## 	Códigos de erro na receção de número externo(ReplyCode)
+|Id| Valor |
+|------------ | ------------|
+|100 |	Aguarda Intervenção Manual ou Programada|
+|200|	Sucesso|
+|400|	Erro Aplicacional ou Formato Inesperado|
+|401|	Registo Duplicado ou inesperado|
+|500|	Erro Inesperado|
+
+## 	Códigos de erro (ErrorCode)
+|100 |	Aguarda Intervenção Manual ou Programada|
+|Id| Valor |
+|------------ | ------------|
+|400|	Erro Aplicacional ou Formato Inesperado|
+|401|	Registo Duplicado ou inesperado|
+|403| Acesso não autorizado|
+|404| O pedido solicitado não foi encontrado|
+|500|	Erro Inesperado|
+
+##	 Códigos de Ação
+|Id| Valor |
+|------------ | ------------|
+|1|	Preenchimento formulário|
+|2|Submissão formulário|
+|3|Colocar pedido em análise|
+|4|Finalizar processo|
+|5|Aguardar selecção de pagamento|
+|6|Emitir guia de pagamento|
+|7|Efectuar pagamento do pedido|
+|8|Caducar pagamento|
+|9|Colocar pedido em atribuição de taxa|
+|10|Reatribuir pedido|
+|11|Reservar pedido|
+|12|Notificar para esclarecimentos|
+|13|Reapreciar|
+|14|Emitir decisão|
+|15|Convocar audência de interessados|
+|16|Registar taxa após decisão|
+|17|Arquivar pedido|
+|18|Libertar pedido|
+|19|Submeter pedido à entidade competente|
+|20|Enviar notificação|
+|29|Criar pedido|
+|30|Submeter pedido à análise|
+|31|Submeter pedido à análise|
+|32|Notificar para esclarecimentos com paragem de prazos|
+|33|Comunica|
+|34|Comunica|
+|35|Registo de intervenção s/ suspenção de prazo|
+|36|Registo de intervenção c/ suspensão de prazo|
+|37|Retoma de pedido|
+|38|Registo de pagamento manual|
+|39|Pagamento de taxa em atraso|
+|40|Atribuição manual de número de pedido externo|
+|41|Correção|
+
+##	Tipo de Taxa
+|Id| Valor |
+|------------ | ------------|
+|TA|Taxa Administrativa|
+|T|Taxa de Serviço|
+
 ## Plataforma de Integração
 [Consultar aqui a informação sobre a Plataforma de Integração](../iap)
 
