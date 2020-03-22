@@ -4,10 +4,10 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 - [Regressar ao ecrã inicial](../)
 
 ## Operações
-[Consultar as operações disponíveis](operacoes)
+[Consultar as operações disponíveis](../operacoes)
 
 ## Tabelas de valores
-[Consultar as tabelas de valores](tabeladevalores)
+[Consultar as tabelas de valores](../tabeladevalores)
 
 # Plataforma de Integração
 
@@ -108,4 +108,4 @@ retorno de sucesso.
 
 
 ## Transferência de Ficheiros
-[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
+[Consultar aqui a informação sobre a transferência de ficheiros](../largefiles)
