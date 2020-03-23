@@ -179,8 +179,6 @@ solicitar o envio de um formulário no âmbito de uma alteração.
 <operationData>
   <operationCode>ISCOP001SendForm</operationCode>
   <operationVersion></operationVersion>
-  <processNumber>PROC/487/2020</processNumber>
-  <requestNumber>694/2020</requestNumber>
   <operationData>
 ```
 
