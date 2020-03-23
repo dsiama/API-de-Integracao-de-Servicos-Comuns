@@ -179,7 +179,7 @@ solicitar o envio de um formulário no âmbito de uma alteração.
 <operationData>
   <operationCode>ISCOP014GetElectronicFormRequest/operationCode>
   <operationVersion></operationVersion>
-  <operationData>
+<operationData>
 ```
 
 
@@ -326,7 +326,7 @@ Esta operação permite o registo de uma decisão associada a um processo.
 </operationData>
 ```
 
-## Pedido de dados resumo
+## Envio de dados resumo
 **BETA**
 Esta operação permite o envio de dados de serviço de forma resumida.
 
@@ -343,7 +343,7 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 
 ```markdown
 <operationData>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode>ISCOP011ServiceResumeInfo</operationCode>
   <operationVersion></operationVersion>
   <processNumber>?</processNumber>
   <requestNumber>?</processNumber>
