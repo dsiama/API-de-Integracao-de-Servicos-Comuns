@@ -177,7 +177,7 @@ solicitar o envio de um formulário no âmbito de uma alteração.
 
 ```markdown
 <operationData>
-  <operationCode>ISCOP001SendForm</operationCode>
+  <operationCode>ISCOP014GetElectronicFormRequest/operationCode>
   <operationVersion></operationVersion>
   <operationData>
 ```
