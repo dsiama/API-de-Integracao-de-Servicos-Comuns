@@ -36,8 +36,8 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 
 ## 	Tipos de Utilizador
 
-|Id| Valor | Nível Confiança|
-|------------ | ------------|------------|
+|Id| Valor |Nível Confiança|
+|------------ | ------------|
 |1|	Advogado| 4  |
 |2|	Solicitador| 4 |
 |4|	Cidadão| 4 com cartão de cidadão 2 com Chave Móvel Digital| 
