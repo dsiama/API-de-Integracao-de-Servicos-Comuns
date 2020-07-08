@@ -32,14 +32,18 @@ A ISCAPI é uma camada de integração de sistemas com parceiros com um conjunto
 ## 	Entidades
 Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http://www.sioe.dgaep.gov.pt/Default.aspx.
 
+|Id| Valor |Nível de confiança| |———— | ————| ————|
+
+## 	Nível de Confiança
+
 ## 	Tipos de Utilizador
 
-|Id| Valor |
+|Id| Valor | Nível Confiança|
 |------------ | ------------|
-|1|	Advogado|
-|2|	Solicitador|
-|4|	Cidadão|
-|6|	Notário|
+|1|	Advogado| 4  |
+|2|	Solicitador| 4 |
+|4|	Cidadão| 4 com cartão de cidadão 2 com Chave Móvel Digital| 
+|6|	Notário| 4 |
 
 
 ## 	Tipo de Documento
